@@ -4,15 +4,14 @@
   "description": "This is the invoicing app",
   "main": "app.js",
   "scripts": {
-    "start": "set NODE_ENV=development&&nodemon server.js",
-    "start:prod": "set NODE_ENV=production&&nodemon server.js"
+    "start": "node server.js"
+   
   },
   "author": "Himanshu Borah",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.12.13",
-    "morgan": "^1.10.0"
+    
+    "express": "^4.17.1"
+    
   }
 }
